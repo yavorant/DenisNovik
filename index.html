@@ -9,22 +9,135 @@
 <body>
   <main>
     <header id="header">
-      <nav class="header-menu">
-        <ul>
-          <li><a href="#header">Home</a></li>
-          <li><a href="#about_me">About me</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#about_me">About me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>  
     </header>
+    
+    <hr>
 
-    <section id="hero"></section>
-    <section id="about_me"></section>
-    <section id="skills"></section>
-    <section id="portfolio"></section>
-    <footer id="contacts"></footer>
+    <section id="hero">
+      <div class="hero-name-wrapper">
+        <h1 class="hero-name">Denis Novik</h1>
+      </div>
+      <div class="hero-image-wrapper">
+        <img class="hero-image" src="images/Novik.png" alt="">
+      </div>
+    </section>
+
+    <section id="aboutme">
+      <div class="aboutme-title-wrapper">
+        <h2 class="aboutme-title">About me</h2>
+        <br>
+      </div>
+      <div class="aboutme-content-wrapper">
+        <p class="aboutme-content">Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
+        <br>
+        <p class="aboutme-content">I'm studying at courses "Web and mobile design 
+          interfaces" in IT-Academy.</p>
+        <br>
+        <p class="aboutme-content">Ready to implement excellent projects
+          with wonderful people.</p>
+        <br>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="skills-heading">
+        <h2 class="skills-title">Skills</h2>
+        <p class="skills-heading-content">I work in such programs as</p>
+      </div>
+      <div class="product-list-wrapper">
+        <ul class="product-list">
+          <li class="product">
+            <figure class="product-figure">
+              <img class="product-image" src="images/Ps.png" alt="PS" >
+              <figcaption class="product-title">Adobe Photoshop</figcaption>
+            </figure>
+            <div class="rating">*****</div>
+          </li>
+          <li class="product">
+            <figure class="product-figure">
+              <img class="product-image" src="images/Ai.png" alt="Ai" >
+              <figcaption class="product-title">Adobe Illustrator</figcaption>
+            </figure>
+            <div class="rating">*****</div>
+          </li>
+          <li class="product">
+            <figure class="product-figure">
+              <img class="product-image" src="images/Ae.png" alt="Ae" >
+              <figcaption class="product-title">Adobe After Effect</figcaption>
+            </figure>
+            <div class="rating">*****</div>
+          </li>
+          <li class="product">
+            <figure class="product-figure">
+              <img class="product-image" src="images/Figma.png" alt="Figma" >
+              <figcaption class="product-title">Figma</figcaption>
+            </figure>
+            <div class="rating">*****</div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="portfolio-wrapper">
+        <h2 class="portfolio-title">Portfolio</h2>
+        <img class="portfolio-image" src="images/Fashion-Store.png" alt="fashion">
+        <a class="portfolio-link" href="">Online fashion store - Homepage</a>
+        <img class="portfolio-image" src="images/reebok_web.png" alt="reebok">
+        <a class="portfolio-link" href="">Reebok Store - Concept</a>
+        <img class="portfolio-image" src="images/braun-landing.png" alt="braun">
+        <a class="portfolio-link" href="">Braun Landing Page - Concept</a>
+      </div>
+    </section>
+
+    <footer id="contacts">
+      <div class="contacts-heading">
+        <h2 class="contacts-title">Contacts</h2>
+        <p class="contacts-content">Want to know more or just chat? 
+          You are welcome!</p>
+      </div>
+
+      <div class="nav-group">
+        <button class="nav-button">Send message</button>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="/images/linkedin.svg" alt="linkedin">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="/images/instagram.svg" alt="instagram">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="/images/behance.svg" alt="behance">
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <img src="/images/dribbble.svg" alt="dribbble">
+              </a>
+            </li>
+          </ul>
+        </nav> 
+      </div>
+      <div class="links-description">
+        <p class="links-desctiption-content">Like me on
+          LinkedIn, Instagram, Behance, Dribble</p>
+      </div>
+    </footer>
   </main>
 </body>
 </html>
