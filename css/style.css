@@ -1,3 +1,55 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+/***** header *****/
+
+#header {
+  width: 100%;
+  max-width: 1440px;
+  /* border-bottom: 1px solid #828282; */
+}
+
+#header:after {
+  content: ''; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 970px; /* Change this to whatever width you want. */
+  border-bottom: 1px solid #828282; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.nav {
+  text-align: center;
+  /* display: inline-block; */
+}
+
+.nav-list {
+  margin: 25px auto;
+  /* max-width: 496px; */
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 40px;
+}
+
+li:first-child.nav-item {
+  margin-left: 0;
+}
+
+.nav-link {
+  /* display: inline; */
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  color: #828282;
+  text-decoration: none;
+}
+
+li:first-child .nav-link {
+  color: #070707;
+}
+
+#hero {
+  /* background-color: red; */
+}
