@@ -20,7 +20,7 @@ p {
 
 /***** header *****/
 
-#header {
+.header {
   width: 100%;
   max-width: 1440px;
   /* border-bottom: 1px solid #828282; */

@@ -15,133 +15,134 @@
 </head>
 <body>
   <main>
-    <header id="header">
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#about_me">About me</a></li>
-          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+
+    <header id="header" class="header">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item"><a class="header__link" href="#header">Home</a></li>
+          <li class="header__item"><a class="header__link" href="#about_me">About me</a></li>
+          <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
+          <li class="header__item"><a class="header__link" href="#portfolio">Portfolio</a></li>
+          <li class="header__item"><a class="header__link" href="#footer">Contacts</a></li>
         </ul>
       </nav>  
     </header>
     
     <!-- <hr> -->
 
-    <section id="hero">
-      <div class="hero-name-wrapper">
-        <h1 class="hero-name">Denis Novik</h1>
+    <section id="hero" class="hero">
+      <div class="hero__name-wrapper">
+        <h1 class="hero__name">Denis Novik</h1>
       </div>
-      <div class="hero-image-wrapper">
-        <img class="hero-image" src="./images/Novik.png" alt="Novik Image">
+      <div class="hero__image-wrapper">
+        <img class="hero__image" src="./images/Novik.png" alt="Denis Novik">
       </div>
     </section>
 
-    <section id="aboutme">
-      <div class="aboutme-title-wrapper">
-        <h2 class="aboutme-title">About me</h2>
+    <section id="aboutme" class="aboutme">
+      <div class="aboutme__title-wrapper">
+        <h2 class="title">About me</h2>
         <br>
       </div>
-      <div class="aboutme-content-wrapper">
-        <p class="aboutme-content">Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
+      <div class="aboutme__content-wrapper">
+        <p class="aboutme__content">Hi, I'm Denis – UX/UI designer from Minsk.I'm interested in design and everything connected with it.</p>
         <br>
-        <p class="aboutme-content">I'm studying at courses "Web and mobile design 
+        <p class="aboutme__content">I'm studying at courses "Web and mobile design 
           interfaces" in IT-Academy.</p>
         <br>
-        <p class="aboutme-content">Ready to implement excellent projects
+        <p class="aboutme__content">Ready to implement excellent projects
           with wonderful people.</p>
         <br>
       </div>
     </section>
 
-    <section id="skills">
-      <div class="skills-heading">
-        <h2 class="skills-title">Skills</h2>
-        <p class="skills-heading-content">I work in such programs as</p>
+    <section id="skills" class="skills">
+      <div class="skills__heading">
+        <h2 class="title">Skills</h2>
+        <p class="skills__heading-content">I work in such programs as</p>
       </div>
-      <div class="product-list-wrapper">
-        <ul class="product-list">
+      <div class="product__list-wrapper">
+        <ul class="product__list">
           <li class="product">
-            <figure class="product-figure">
-              <img class="product-image" src="./images/Ps.png" alt="PS" >
-              <figcaption class="product-title">Adobe Photoshop</figcaption>
+            <figure class="product__figure">
+              <img class="product__image" src="./images/Ps.png" alt="PS" >
+              <figcaption class="product__title">Adobe Photoshop</figcaption>
             </figure>
-            <div class="rating">*****</div>
+            <div class="product__rating">*****</div>
           </li>
           <li class="product">
-            <figure class="product-figure">
-              <img class="product-image" src="./images/Ai.png" alt="Ai" >
-              <figcaption class="product-title">Adobe Illustrator</figcaption>
+            <figure class="product__figure">
+              <img class="product__image" src="./images/Ai.png" alt="Ai" >
+              <figcaption class="product__title">Adobe Illustrator</figcaption>
             </figure>
-            <div class="rating">*****</div>
+            <div class="product__rating">*****</div>
           </li>
           <li class="product">
-            <figure class="product-figure">
-              <img class="product-image" src="./images/Ae.png" alt="Ae" >
-              <figcaption class="product-title">Adobe After Effect</figcaption>
+            <figure class="product__figure">
+              <img class="product__image" src="./images/Ae.png" alt="Ae" >
+              <figcaption class="product__title">Adobe After Effect</figcaption>
             </figure>
-            <div class="rating">*****</div>
+            <div class="product__rating">*****</div>
           </li>
           <li class="product">
-            <figure class="product-figure">
-              <img class="product-image" src="./images/Figma.png" alt="Figma" >
-              <figcaption class="product-title">Figma</figcaption>
+            <figure class="product__figure">
+              <img class="product__image" src="./images/Figma.png" alt="Figma" >
+              <figcaption class="product__title">Figma</figcaption>
             </figure>
-            <div class="rating">*****</div>
+            <div class="product__rating">*****</div>
           </li>
         </ul>
       </div>
     </section>
 
-    <section id="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="portfolio-wrapper">
-        <h2 class="portfolio-title">Portfolio</h2>
-        <img class="portfolio-image" src="./images/Fashion-Store.png" alt="fashion">
-        <a class="portfolio-link" href="">Online fashion store - Homepage</a>
-        <img class="portfolio-image" src="./images/reebok_web.png" alt="reebok">
-        <a class="portfolio-link" href="">Reebok Store - Concept</a>
-        <img class="portfolio-image" src="./images/braun-landing.png" alt="braun">
-        <a class="portfolio-link" href="">Braun Landing Page - Concept</a>
+        <h2 class="title">Portfolio</h2>
+        <img class="portfolio__image" src="./images/Fashion-Store.png" alt="fashion">
+        <a class="portfolio__link" href="">Online fashion store - Homepage</a>
+        <img class="portfolio__image" src="./images/reebok_web.png" alt="reebok">
+        <a class="portfolio__link" href="">Reebok Store - Concept</a>
+        <img class="portfolio__image" src="./images/braun-landing.png" alt="braun">
+        <a class="portfolio__link" href="">Braun Landing Page - Concept</a>
       </div>
     </section>
 
-    <footer id="contacts">
-      <div class="contacts-heading">
-        <h2 class="contacts-title">Contacts</h2>
-        <p class="contacts-content">Want to know more or just chat? 
+    <footer id="footer" class="footer">
+      <div class="footer__heading">
+        <h2 class="title">Contacts</h2>
+        <p class="footer__content">Want to know more or just chat? 
           You are welcome!</p>
       </div>
 
       <div class="nav-group">
-        <button class="nav-button">Send message</button>
+        <button class="nav-group__button">Send message</button>
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img src="./images/linkedin.svg" alt="linkedin">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img src="./images/linkedin.svg" alt="linkedin" class="nav__img">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img src="./images/instagram.svg" alt="instagram">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img src="./images/instagram.svg" alt="instagram" class="nav__img">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img src="./images/behance.svg" alt="behance">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img src="./images/behance.svg" alt="behance" class="nav__img">
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                <img src="./images/dribbble.svg" alt="dribbble">
+            <li class="nav__item">
+              <a class="nav__link" href="#">
+                <img src="./images/dribbble.svg" alt="dribbble" class="nav__img">
               </a>
             </li>
           </ul>
         </nav> 
       </div>
       <div class="links-description">
-        <p class="links-desctiption-content">Like me on
+        <p class="links-desctiption__content">Like me on
           LinkedIn, Instagram, Behance, Dribble</p>
       </div>
     </footer>
