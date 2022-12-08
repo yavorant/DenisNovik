@@ -6,7 +6,7 @@ body {
   color: #828282;
 }
 
-h2 {
+.title {
   font-weight: 700;
   font-size: 34px;
   line-height: 46px;
@@ -27,56 +27,59 @@ p {
 }
 
 #header:after {
-  content: ''; /* This is necessary for the pseudo element to work. */
-  display: block; /* This will put the pseudo element on its own line. */
-  margin: 0 auto; /* This will center the border. */
-  max-width: 970px; /* Change this to whatever width you want. */
-  border-bottom: 1px solid #828282; /* This creates the border. Replace black with whatever color you want. */
+  content: '';
+  display: block;
+  margin: 0 auto;
+  max-width: 970px;
+  border-bottom: 1px solid #828282;
 }
 
-.nav {
+.header__nav {
   text-align: center;
   /* display: inline-block; */
 }
 
-.nav-list {
+.header__list {
   margin: 25px auto;
   /* max-width: 496px; */
 }
 
-.nav-item {
+.header__item {
   display: inline;
   margin-left: 40px;
 }
 
-li:first-child.nav-item {
+li:first-child.header__item {
   margin-left: 0;
 }
 
-.nav-link {
-  /* display: inline; */
+.header__link {
   text-decoration: none;
+  /* font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em; */
+  color: #828282;
 }
 
-li:first-child .nav-link {
+li:first-child .header__link {
   color: #070707;
 }
 
 /***** hero *****/
 
-#hero {
+.hero {
   /* background-color: red; */
   width: 100%;
 }
 
-.hero-name-wrapper {
+.hero__title-wrapper {
   max-width: 970px;
-  height: 110px;
-  margin: 12px auto 0;
-  text-align: center;
+  height: 60px;
+  margin: 12px auto 50px;
+  /* text-align: center; */
 }
 
-.hero-name {
+.hero__title {
   width: 300px;
   height: 60px;
   font-weight: 700;
@@ -86,10 +89,11 @@ li:first-child .nav-link {
   color: #070707;
 }
 
-.hero-image-wrapper {
+.hero__image-wrapper {
   /* text-align: center; */
   margin: 0 auto;
   max-width: 970px;
+  height: 387px;
 }
 
 .hero-image {
