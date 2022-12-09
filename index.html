@@ -19,8 +19,8 @@
     <header id="header" class="header">
       <nav class="header__nav">
         <ul class="header__list">
-          <li class="header__item"><a class="header__link" href="#header">Home</a></li>
-          <li class="header__item"><a class="header__link" href="#about_me">About me</a></li>
+          <li class="header__item"><a class="header__link header__link--active" href="#header">Home</a></li>
+          <li class="header__item"><a class="header__link" href="#aboutme">About me</a></li>
           <li class="header__item"><a class="header__link" href="#skills">Skills</a></li>
           <li class="header__item"><a class="header__link" href="#portfolio">Portfolio</a></li>
           <li class="header__item"><a class="header__link" href="#footer">Contacts</a></li>
@@ -161,14 +161,24 @@
     </section>
 
     <section id="portfolio" class="portfolio">
-      <div class="portfolio-wrapper">
-        <h2 class="title">Portfolio</h2>
-        <img class="portfolio__image" src="./images/Fashion-Store.png" alt="fashion">
-        <a class="portfolio__link" href="">Online fashion store - Homepage</a>
-        <img class="portfolio__image" src="./images/reebok_web.png" alt="reebok">
-        <a class="portfolio__link" href="">Reebok Store - Concept</a>
-        <img class="portfolio__image" src="./images/braun-landing.png" alt="braun">
-        <a class="portfolio__link" href="">Braun Landing Page - Concept</a>
+      <div class="portfolio__wrapper">
+        <h2 class="title portfolio__title">Portfolio</h2>
+
+        <figure class="page page1">
+          <img class="page__image" src="./images/Fashion-Store.png" alt="fashion">
+          <figcaption class="page__title"><a class="portfolio__link" href="">Online fashion store - Homepage</a></figcaption>
+        </figure>
+
+        <figure class="page page2">
+          <img class="page__image" src="./images/reebok_web.png" alt="reebok">
+          <figcaption class="page__title"><a class="portfolio__link" href="">Reebok Store - Concept</a></figcaption>
+        </figure>
+
+        <figure class="page page3">
+          <img class="page__image" src="./images/braun-landing.png" alt="braun">
+          <figcaption class="page__title"><a class="portfolio__link" href="">Braun Landing Page - Concept</a></figcaption>
+        </figure>
+
       </div>
     </section>
 

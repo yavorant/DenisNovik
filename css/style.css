@@ -51,13 +51,18 @@ li:first-child.header__item {
 
 .header__link {
   text-decoration: none;
-  /* font-size: 18px;
-  line-height: 25px;
-  letter-spacing: 0.02em; */
+  color: #828282;
+}
+
+.header__link:hover {
   color: #070707;
 }
 
-li:not(:first-child) .header__link {
+.header__link--active {
+  color: #070707;
+}
+
+.header__link--active:hover {
   color: #828282;
 }
 
@@ -209,6 +214,16 @@ li:not(:first-child) .header__link {
 
 .portfolio {
   background-color: #f6f6f6;
+}
+
+.portfolio__wrapper {
+  width-max: 970px;
+  position: relative;
+}
+
+.portfolio__title {
+  width: 150px;
+  height: 40px;
 }
 
 /***** contacts *****/
